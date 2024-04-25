@@ -1,4 +1,7 @@
 import React from 'react'
+import { BsFacebook } from "react-icons/bs";
+import { LuTwitter } from "react-icons/lu";
+import { FaFacebookMessenger } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -6,7 +9,12 @@ function Footer() {
        <div className='grid sm:justify-center grid-cols-12  pt-[2vw] px-[6vw]'>
        <div className='col-span-4 flex    flex-col'>
         <a className=' text-[3.2vw]  md:text-[1.8vw] text-white font-semibold'>Logo</a>
-        <a></a>
+       <div className='flex items-center mt-[2.5vw] '>   
+        <BsFacebook className=' md:text-[1.2vw] text-white text-[1.7vw]'/> 
+
+        <LuTwitter className='mx-[2.5vw] md:text-[1.2vw] text-white text-[1.7vw]'/> 
+        <FaFacebookMessenger className='  md:text-[1.2vw] text-white text-[1.7vw]'/>
+        </div>
         </div>
         <div className='col-span-2 flex    flex-col'>
         <a className=' text-[3.2vw] text-white md:text-[1.8vw] font-semibold'>Heading</a>
@@ -16,7 +24,7 @@ function Footer() {
 <div className='col-span-1 flex    flex-col'>
 </div>
 <div className='col-span-5 flex    flex-col'>
-<a className='text-black text-[3.2vw] text-white  md:text-[1.8vw] font-semibold'>Subscribe
+<a className='  text-[3.2vw] text-white  md:text-[1.8vw] font-semibold'>Subscribe
 </a>
 <a className='w-[90%] py-[3vw] md:text-[1.2vw] text-white text-[1.7vw]'>Join our newsletter to stay up to date on features and releases.
 </a>
